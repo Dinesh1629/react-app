@@ -2,7 +2,7 @@ import React from "react";
 import "./style.css";
 
 export default function App() {
-  return {
+  return (
     <div>
       <h1>Hello StackBlitz!</h1>
       <p>hello world</p>
