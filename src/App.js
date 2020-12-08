@@ -1,11 +1,15 @@
-import React from "react";
-import "./style.css";
+import React, { Component } from 'react';
+//import gerrt,{compoent} from './compnoent/gerrt'
+import './style.css';
+import Gerrt from './component/Gerrt' 
 
-export default function App() {
-  return (
-    <div>
-      <h1>Hello StackBlitz!</h1>
-      <p>hello world</p>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <Gerrt />
+      </div>
+    );
+  }
 }
+export default App;
