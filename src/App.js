@@ -7,6 +7,7 @@ import ClassCounter from "./component/ClassCounter";
 import HookCounter from "./component/HookCounter";
 import HookCounterprv from "./component/HookCounterprv";
 import HookCounterclass from "./component/HookCounterclass";
+import HookArray from "./component/HookArray"
 
 class App extends Component {
   render() {
@@ -19,6 +20,7 @@ class App extends Component {
         <HookCounterprv />
 
         <HookCounterclass />
+        <HookArray />
       </div>
     );
   }
