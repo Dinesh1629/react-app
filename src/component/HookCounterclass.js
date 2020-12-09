@@ -13,7 +13,7 @@ function HookCounterclass (){
     <h2>Your first name is:{name.firstName}</h2>
     <h2>Your first name is:{name.lastName}</h2>
 
-    <div>{name.firstName}{name.lastName}</div>
+    <div><h3>{name.firstName}{name.lastName}</h3></div>
     </form>
   )
   
