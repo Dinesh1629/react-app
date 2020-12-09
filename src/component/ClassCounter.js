@@ -1,19 +1,19 @@
 import React, { Component } from "react";
 
-export class ClassCounter extends Component {
+class ClassCounter extends Component {
 
   constructor(props){
   super(props)
 
   this.state = {
-    count:0
+    count: 0
   }
   }
 
 
-  incrementCount =() =>{
+  incrementCount = () => {
     this.setState({
-    count: this.state.count + 1
+    count: this.state.count +1
     })
   }
 
@@ -22,7 +22,7 @@ export class ClassCounter extends Component {
     return(
       //  <h1>heelo</h1>
       <div>
-      <button onCLick={this.incrementCount}>Count {this.state.count}</button>
+      <button onClick={this.incrementCount}>Count {this.state.count}</button>
       </div>
     )
   }
