@@ -4,6 +4,7 @@ import './style.css';
 import Gerrt from './component/Gerrt' 
 import Welcome from './component/Welcome'
 import ClassCounter from './component/ClassCounter'
+import HookCounter from './component/HookCounter'
 
 
 class App extends Component {
@@ -15,6 +16,7 @@ class App extends Component {
         <Gerrt />
         <Welcome />
         <ClassCounter />
+        <HookCounter />
       </div>
     );
   }
