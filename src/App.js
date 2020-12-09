@@ -5,6 +5,7 @@ import Gerrt from './component/Gerrt'
 import Welcome from './component/Welcome'
 import ClassCounter from './component/ClassCounter'
 import HookCounter from './component/HookCounter'
+import HookCounterprv from './component/HookCounterprv'
 
 
 class App extends Component {
@@ -17,6 +18,7 @@ class App extends Component {
         <Welcome />
         <ClassCounter />
         <HookCounter />
+        <HookCounterprv />
       </div>
     );
   }
