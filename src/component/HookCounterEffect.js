@@ -16,4 +16,4 @@ function HookCOunterEffect() {
   );
 }
 
-export default HookCOunterEffect;
+export default HookCOunterEffect

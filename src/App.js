@@ -11,6 +11,8 @@ import HookArray from "./component/HookArray"
 import HookCOunterEffect from
 './component/HookCounterEffect'
 
+import HookMouse from './component/HookMouse'
+
 class App extends Component {
   render() {
     return (
@@ -25,6 +27,7 @@ class App extends Component {
         <HookArray />
 
         <HookCOunterEffect  />
+        <HookMouse />
       </div>
     );
   }
