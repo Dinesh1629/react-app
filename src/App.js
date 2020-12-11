@@ -28,6 +28,9 @@ class App extends Component {
 
         <HookCOunterEffect  />
         <HookMouse />
+
+        <Counter />
+        <Fetching />
       </div>
     );
   }
